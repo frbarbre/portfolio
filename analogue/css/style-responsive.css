@@ -1,0 +1,402 @@
+/*Responsive Header*/
+
+@media screen and (max-width: 910px) {
+    .sticky-header {
+        display: none;
+    }
+
+    header {
+        background-color: black;
+    }
+
+    header img {
+        padding-left: 0px;
+        height: 67px;
+    }
+
+    .header-logo {
+        padding-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        width: fit-content;
+    }
+
+    header a {
+        float: none;
+        padding: 0;
+    }
+
+    header button {
+        padding: 0;
+    }
+
+    nav {
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        padding-right: 0px;
+        float: none;
+        justify-content: center;
+        justify-items: center;
+        padding-bottom: 25px;
+        height: 75px;
+    }
+
+    video {
+        padding-top: 182px;
+    }
+
+    #header-desktop {
+        display: none;
+    }
+    
+    #header-mobile {
+        display: block;
+    }
+
+    .logo-mobile {
+        display: block;
+        width: 100%;
+        padding-top: 50px;
+    }
+
+    .logo-mobile figure {
+        display: grid;
+        grid-template-columns: 60%;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .logo-mobile figure img {
+        width: 100%;
+    }
+}
+
+
+/*Responsive FP*/
+
+@media screen and (max-width:1500px) {
+    .presentation {
+        margin-bottom: 0px;
+    }
+    
+    #bottom-presentation {
+        padding-top: 70px;
+        margin-bottom: 100px;
+    }
+
+    #lone-presentation {
+        padding-top: 70px;
+        margin-bottom: 100px;
+    }
+
+    #top-presentation {
+        padding-top: 100px;
+    }
+
+    #middle-presentation {
+        padding-top: 70px;
+    }
+
+    .presentation h1 {
+        text-align: center;
+        padding-top: 100px;
+    }
+
+    .read-button {
+        margin-bottom: 0px;
+    }
+
+    .info-container article {
+        padding-top: 150px;
+    }
+
+    .some-grid{
+        grid-template-columns: 8% 8% 8%;
+    }
+
+    .analogue-logo-alt img {
+        width: 25%;
+    }
+    
+}
+
+@media screen and (max-width:1200px){
+
+    .info-container article {
+        padding-top: 100px;
+    }
+
+    .newsletter {
+        width: 100%;
+    }
+
+    .some-grid{
+        grid-template-columns: 12% 12% 12%;
+    }
+
+    .analogue-logo-alt img {
+        width: 30%;
+    }
+    
+}
+
+@media screen and (max-width: 1000px) {
+    .presentation-grid {
+        grid-template-columns: 60%;
+        row-gap: 100px;
+    }
+
+    .hidden {
+        display: none;
+    }
+}
+
+@media screen and (max-width:925px){
+    
+    .info-container article {
+        padding-top: 100px;
+    }
+
+    .newsletter {
+        width: 100%;
+    }
+
+    .newsletter article form {
+        display: grid;
+        grid-template-columns: 100%;
+        width: 350px;
+        padding-top: 40px;
+    }
+}
+
+@media screen and (max-width:825px){
+    
+    .info-container article {
+        padding-top: 50px;
+    }
+
+    .newsletter article form {
+        width: 350px;
+    }
+
+    .newsletter article h2 {
+        font-size: 24px;
+    }
+
+    .some-grid{
+        grid-template-columns: 15% 15% 15%;
+    }
+
+    .analogue-logo-alt img {
+        width: 35%;
+    }
+    
+}
+
+@media screen and (max-width:700px){
+    .newsletter article form {
+        width: 300px;
+    }
+
+    .newsletter p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:635px) {
+    .presentation-grid {
+        grid-template-columns: 80%;
+    }
+
+    #newsletter-desktop {
+        display: none;
+    }
+
+    #newsletter-mobile {
+        display: block;
+    }
+
+    #footer-fp {
+        padding-top: 500px;
+    }
+
+    .some-grid{
+        grid-template-columns: 15% 15% 15%;
+    }
+
+    .analogue-logo-alt img {
+        width: 40%;
+    }
+    
+}
+
+@media screen and (max-width:450px) {
+    .read-button {
+        width: 100%;
+    }
+
+    .presentation {
+        margin-bottom: 0px;
+    }
+
+    .some-grid{
+        grid-template-columns: 20% 20% 20%;
+    }
+
+    .analogue-logo-alt img {
+        width: 60%;
+    }
+    
+}
+/*red box responsive*/
+
+@media screen and (min-width:2670px) {
+    .red-box {
+        height: 1800px;
+    }
+}
+
+@media screen and (max-width:2040px) {
+    .red-box {
+        height: 1100px;
+    }
+}
+
+@media screen and (max-width:1510px) {
+    .red-box {
+        height: 800px;
+    }
+}
+
+@media screen and (max-width:1110px) {
+    .red-box {
+        display: none;
+    }
+}
+
+/*Repsonsive Articles*/
+
+@media screen and (min-width: 2000px) {
+    .article-wrapper {
+        max-width: 1200px;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .article-wrapper {
+        max-width: 800px;
+    }
+
+    .main-header {
+        font-size: 34px;
+    }
+
+    .artist-header {
+        font-size: 24px;
+    }
+
+    .artist-header span {
+        font-size: 36px;
+    }
+
+    .sub-header {
+        font-size: 34px;
+    }
+
+    .sub-header span {
+        font-size: 42px;
+    }
+    
+}
+
+@media screen and (max-width: 925px) {
+    .article-wrapper {
+        max-width: 600px;
+    }
+
+    .main-header {
+        font-size: 28px;
+    }
+
+    .artist-header {
+        font-size: 18px;
+    }
+
+    .artist-header span {
+        font-size: 26px;
+    }
+
+    .sub-header {
+        font-size: 28px;
+    }
+
+    .sub-header span {
+        font-size: 36px;
+    }
+
+    .audio-header {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .article-wrapper {
+        max-width: 400px;
+    }
+
+    .main-header h1 {
+        font-size: 30px;
+    }
+
+    .artist-header {
+        font-size: 14px;
+    }
+
+    .artist-header span {
+        font-size: 20px;
+    }
+
+    .sub-header {
+        font-size: 16px;
+    }
+
+    .sub-header span {
+        font-size: 28px;
+    }
+
+    .audio-header {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .article-wrapper {
+        max-width: 350px;
+    }
+
+    .main-header h1 {
+        font-size: 30px;
+    }
+
+    .artist-header {
+        font-size: 14px;
+    }
+
+    .artist-header span {
+        font-size: 20px;
+    }
+
+    .sub-header {
+        font-size: 16px;
+    }
+
+    .sub-header span {
+        font-size: 28px;
+    }
+
+    .audio-header {
+        font-size: 10px;
+    }
+}
+
+
